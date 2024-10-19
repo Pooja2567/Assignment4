@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function add(n1, n2) {
+    return n1 + n2;
+}
+
+function multiply(n1, n2) {
+    return n1 * n2;
+}
+
+
+function subtract(n1, n2) {
+    return n1 - n2;
+}
+
+function modulus(n1, n2) {
+    return n1 % n2;
+}
+
+function calculator() {
+    let n1 = parseFloat(prompt("Enter first number:"));
+    let n2 = parseFloat(prompt("Enter second number:"));
+    
+    console.log(`Number 1: ${n1}`);
+    console.log(`Number 2: ${n2}`);
+    
+    console.log(`Sum: ${add(n1, n2)}`);
+    console.log(`Product: ${multiply(n1, n2)}`);
+    console.log(`Difference: ${subtract(n1, n2)}`);
+    console.log(`Remainder: ${modulus(n1, n2)}`);
+}
+
+calculator();
+
+    </script>   
+</body>
+</html>
